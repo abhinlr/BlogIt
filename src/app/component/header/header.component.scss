@@ -1,0 +1,31 @@
+.masthead img{
+    zoom: 70%;
+    margin-top: -200px;
+}
+.masthead{
+    position: relative;
+    top: -120px;
+    overflow: hidden;
+    height: 90vh;
+}
+.navbar{
+    z-index: 9;
+    height: 75px;
+    background-color: transparent !important;
+}
+
+.slogan{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: black;
+}
+
+h1{
+    font-size: 90px;
+}
+span{
+    font-size: 40px;
+}

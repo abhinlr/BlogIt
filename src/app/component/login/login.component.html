@@ -1,0 +1,63 @@
+<section class="login">
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Sign Up</h2>
+                        <form (ngSubmit)="signUp()">
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName"
+                                    [(ngModel)]="signupData.firstName" name="firstName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName"
+                                    [(ngModel)]="signupData.lastName" name="lastName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signUpEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="signUpEmail"
+                                    [(ngModel)]="signupData.email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signUpPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signUpPassword"
+                                    [(ngModel)]="signupData.password" name="password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="signUpConfirmPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signUpConfirmPassword"
+                                    [(ngModel)]="signupData.confirmPassword" name="confirmPassword">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Login</h2>
+                        <form (ngSubmit)="logIn()">
+                            <div class="mb-3">
+                                <label for="logInEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="logInEmail" [(ngModel)]="loginData.email"
+                                    name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="logInPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="logInPassword"
+                                    [(ngModel)]="loginData.password" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
