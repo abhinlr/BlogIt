@@ -1,0 +1,66 @@
+#footer{
+    height: 250px;
+    background-color: #d4d4dc;
+}
+
+.top {
+    height: 220px;
+}
+
+h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+h2,a{
+    text-align: center;
+}
+.privacy h5{
+    float: right;
+}
+.policy h5{
+    float: left;
+}
+
+.left{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+hr{
+    width: 80%;
+    margin:0 auto;
+}
+
+.left div:first-child{
+    margin-bottom: 30px;
+}
+
+.right{
+    padding: 0 !important;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  .socials svg{
+    height: 50px;
+  }
+
+  .links{
+    display: flex;
+  }
+
+  .home{
+    display: flex;
+    justify-content: end;
+  }
+  .contact{
+    display: flex;
+    justify-content: start;
+  }
